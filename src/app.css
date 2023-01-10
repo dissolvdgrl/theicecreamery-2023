@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Neris Black';
+    src: url('../fonts/neris-black.woff2') format('woff2'),
+    url('../fonts/neris-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neris SemiBold';
+    src: url('../fonts/neris-semibold.woff2') format('woff2'),
+    url('../fonts/neris-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    @apply font-sans;
+    font-size: 18px;
+}
+
+.link {
+    @apply text-grey text-2xl transition-all duration-200;
+}
+
+.link:hover {
+    @apply opacity-70;
+}
+
+.link::after {
+    content: "→";
+    @apply ml-4 transition-all duration-200;
+}
+
+.link:hover::after {
+    @apply ml-6;
+}
