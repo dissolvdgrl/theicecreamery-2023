@@ -9,11 +9,16 @@ module.exports = {
       },
       colors: {
         'pink': '#FCDCE2',
-        'blue': '#CDE9F3',
+        'sky': '#CDE9F3',
         'caramel': '#F8ECD1',
         'grey': '#6B7280',
         'black': '#151618'
       },
+      animation: {
+        'bounce-slow': 'bounce 5s infinite',
+        'bounce-md': 'bounce 3s infinite',
+        'bounce-xslow': 'bounce 7s infinite',
+      }
     },
   },
   plugins: [],
