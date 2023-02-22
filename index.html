@@ -7,11 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍦</text></svg>">
 
+    <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" href="/css/app.css">
+
     <title>Low Carb Diabetic-Friendly Sugar-free Ice Cream | The Ice Creamery</title>
 </head>
 <body>
-    <div class="bg-pink py-8 md:py-24">
+    <div class="bg-pink py-8 md:py-24 overflow-hidden">
         <nav class="w-11/12 max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between">
             <div class="w-32">
                 <img src="/images/logo.svg" alt="The Ice Creamery">
@@ -26,35 +28,35 @@
                     </a>
                 </div>
                 <div class="mt-4 space-y-4 md:space-y-0 md:space-x-4 flex flex-col md:flex-row">
-                    <a href="#" class="text-black hover:text-grey transition-all duration-200">About</a>
-                    <a href="#" class="text-black hover:text-grey transition-all duration-200">Flavours</a>
-                    <a href="#" class="text-black hover:text-grey transition-all duration-200">What's Inside</a>
-                    <a href="#" class="text-black hover:text-grey transition-all duration-200">Where To Buy</a>
-                    <a href="#" class="text-black hover:text-grey transition-all duration-200">Contact</a>
+                    <a href="#about" class="text-black hover:text-grey transition-all duration-200">About</a>
+                    <a href="#whats-inside" class="text-black hover:text-grey transition-all duration-200">What's Inside</a>
+                    <a href="#flavours" class="text-black hover:text-grey transition-all duration-200">Flavours</a>
+                    <a href="#buy" class="text-black hover:text-grey transition-all duration-200">Where To Buy</a>
+                    <a href="#contact" class="text-black hover:text-grey transition-all duration-200">Contact</a>
                 </div>
             </div>
         </nav>
         <header class="w-11/12 max-w-screen-xl mx-auto flex flex-col md:flex-row mt-16">
             <div class="w-full md:w-1/2">
-                <p class="uppercase text-grey tracking-widest">Premium</p>
-                <h1 class="text-5xl md:text-6xl font-bold text-black mb-8">
+                <p class="wow animate__fadeIn uppercase text-grey tracking-widest">Premium</p>
+                <h1 class="wow animate__fadeIn text-5xl md:text-6xl font-bold text-black mb-8" data-wow-delay="0.25s">
                     The creamiest
                     <br>carb-conscious
                     <br>ice cream. 😍
                 </h1>
-                <a href="#flavours" class="link">View our flavours</a>
+                <a href="#flavours" class="wow animate__fadeIn link" data-wow-delay="0.5s">View our flavours</a>
             </div>
-            <img src="" alt="Strawberry Ice Cream Tub" class="w-1/2 mt-8 md:mt-0">
+            <img src="/images/header-strawberry.png" alt="Strawberry Ice Cream Tub" class="wow animate__bounceInRight w-[420px] mt-8 md:mt-0">
         </header>
     </div> <!-- header & nav section end -->
     <main>
-        <section class="my-32 grid gap-16 grid-cols-1 md:grid-cols-2 w-11/12 max-w-screen-xl mx-auto text-black">
+        <section class="my-32 grid gap-16 grid-cols-1 md:grid-cols-2 w-11/12 max-w-screen-xl mx-auto text-black" id="about">
             <div class="relative overflow-visible mb-72">
                 <div class="rounded-xl absolute -left-12 overflow-hidden z-20 w-3/5 shadow-md">
-                    <img src="/images/vanilla_styled.jpg" alt="Vanilla ice cream in a blue bowl" class="">
+                    <img src="/images/vanilla_styled.jpg" alt="Vanilla ice cream in a blue bowl" class="wow animate__fadeIn">
                 </div>
                 <div class="rounded-xl absolute overflow-hidden z-10 right-0 top-10 shadow-xl">
-                    <img src="/images/choc_mint.jpg" alt="Chocolate ice cream with a mint leaf" class="">
+                    <img src="/images/choc_mint.jpg" alt="Chocolate ice cream with a mint leaf" class="wow animate__fadeIn" data-wow-delay="0.25s">
                 </div>
             </div>
             <div>
@@ -66,7 +68,7 @@
             </div>
         </section>
 
-        <section class="my-32 py-16 bg-sky">
+        <section class="my-32 py-16 bg-sky" id="whats-inside">
             <div class="w-11/12 max-w-screen-xl mx-auto flex flex-col md:flex-row gap-16">
                 <div class="mt-16 md:w-1/2">
                     <h2 class="text-5xl font-bold mb-16">Most of the calories in The Ice Creamery’s ice cream come from healthy animal fats.
@@ -78,7 +80,7 @@
                     <p class="text-grey mb-8">For flavouring and colouring our products, we use real stuff such as cocoa powder, organic beetroot powder and mint extract.</p>
                     <a href="#contact" class="link">Contact us</a>
                 </div>
-                <div class="relative md:w-1/2">
+                <div class="wow animate__fadeIn relative md:w-1/2">
                     <span class="bg-white text-grey rounded-full py-4 px-6 text-xl shadow-lg absolute top-0 md:top-24 left-16 font-bold animate-bounce-slow">🐮 Fresh cream</span>
                     <span class="bg-white text-grey text-sm rounded-full py-4 px-6 shadow-lg absolute top-24 md:top-48 right-56 md:right-48 animate-bounce-md">🥚 Egg yolk</span>
                     <span class="bg-white text-grey text-sm rounded-full py-4 px-6 shadow-lg absolute right-0 md:-right-8 top-56 animate-bounce-xslow">🥛 Full cream milk</span>
@@ -89,30 +91,30 @@
             </div>
         </section> <!-- about section end -->
 
-        <section class="w-11/12 mx-auto my-32">
+        <section class="w-11/12 mx-auto my-32" id="flavours">
             <p class="text-center tracking-widest text-grey">🤩 Check out our</p>
             <h2 class="text-5xl font-bold text-center text-black">Flavours</h2>
             <div class="grid grid-cols-1 md:grid-cols-4 py-16">
                 <div>
-                    <img src="" alt="Vanilla Bean Ice Cream Tub" class="bg-gray-100">
+                    <img src="/images/vanilla-tub.png" alt="Vanilla Bean Ice Cream Tub" class="wow animate__fadeIn w-10/12">
                     <p class="text-center">Vanilla Bean</p>
                 </div>
                 <div>
-                    <img src="" alt="Strawberry Ice Cream Tub" class="bg-gray-100">
+                    <img src="/images/header-strawberry.png" alt="Strawberry Ice Cream Tub" class="wow animate__fadeIn w-10/12" data-wow-delay="0.15s">
                     <p class="text-center">Strawberry</p>
                 </div>
                 <div>
-                    <img src="" alt="Chocolate Ice Cream Tub" class="bg-gray-100">
-                    <p class="text-center">Chocolate Bean</p>
+                    <img src="/images/choc-tub.png" alt="Chocolate Ice Cream Tub" class="wow animate__fadeIn w-10/12" data-wow-delay="0.3s">
+                    <p class="text-center">Chocolate</p>
                 </div>
                 <div>
-                    <img src="" alt="Choc Mint Ice Cream Tub" class="bg-gray-100">
+                    <img src="/images/choc-mint-tub.png" alt="Choc Mint Ice Cream Tub" class="wow animate__fadeIn w-10/12" data-wow-delay="0.45s">
                     <p class="text-center">Choc Mint Bean</p>
                 </div>
             </div>
         </section> <!-- flavours section end -->
 
-        <section class="py-16 bg-caramel">
+        <section class="py-16 bg-caramel" id="buy">
             <div class="w-11/12 max-w-screen-xl mx-auto">
                 <p class="text-center tracking-widest text-grey">🤑 Buy our sugar-free ice cream</p>
                 <h2 class="text-4xl md:text-5xl font-bold text-center text-black">Where to buy</h2>
@@ -175,7 +177,7 @@
             </div>
         </section>
     </main>
-    <footer class="bg-grey py-16">
+    <footer class="bg-grey py-16" id="contact">
         <div class="w-11/12 max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 mb-8">
             <div>
                 <p class="tracking-widest text-caramel">📞 Get in touch</p>
@@ -191,7 +193,7 @@
                 </div>
             </div>
             <div class="relative overflow-visible flex items-center justify-end">
-                <div class="rounded-xl overflow-hidden shadow-xl">
+                <div class="wow animate__fadeIn rounded-xl overflow-hidden shadow-xl">
                     <img src="/images/choc.jpg" alt="Vanilla ice cream in a blue bowl">
                 </div>
             </div>
@@ -199,5 +201,18 @@
         <p class="text-sm text-white text-center opacity-70">© 2023 The Ice Creamery</p>
         <p class="text-sm text-white text-center opacity-70">Built by <a href="https://chilldsgn.com" target="_blank">chilldsgn.com</a>  |  Photography by Juniper Creative</p>
     </footer>
+
+    <script src="/js/wow.min.js"></script>
+    <script>
+        const wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animate__animated',
+            offset: 200,
+            mobile: true,
+            live: true
+        })
+        wow.init();
+    </script>
+
 </body>
 </html>
